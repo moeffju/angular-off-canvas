@@ -51,7 +51,7 @@ angular.module('cn.offCanvas', [])
 
 			return {
 				toggle: toggle,
-				isOpened: false
+				isOpened: this.isOpened
 			}
 		}
 	});
